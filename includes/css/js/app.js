@@ -51,23 +51,23 @@ $(document).ready(function () {
         new Foundation.Equalizer($('#news'));
     };
 
-    // Hide Imprint
-    $('#imprint').hide();
+    // Hide legal_stuff
+    $('#legal_stuff').hide();
 
-    // Open Imprint
-    $('.open-imprint').on('click', function (e) {
+    // Open legal_stuff
+    $('.open-legal_stuff').on('click', function (e) {
         e.preventDefault();
 
-        $('#imprint').show();
+        $('#legal_stuff').show();
 
-        $('html, body').animate({scrollTop: $('#imprint').offset().top - 109}, 500, 'easeInOutCubic');
+        $('html, body').animate({scrollTop: $('#legal_stuff').offset().top - 109}, 500, 'easeInOutCubic');
     });
 
-    // Close Imprint
-    $('.close-imprint').on('click', function (e) {
+    // Close legal_stuff
+    $('.close-legal_stuff').on('click', function (e) {
         e.preventDefault();
 
-        $('#imprint').hide();
+        $('#legal_stuff').hide();
     });
 });
 
