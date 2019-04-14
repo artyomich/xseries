@@ -69,6 +69,14 @@ $(document).ready(function () {
 
         $('#legal_stuff').hide();
     });
+
+    $(".download").mouseenter(function() {
+        $(this).addClass("hover");
+    });
+
+    $(".download").mouseleave(function() {
+        $(this).removeClass("hover");
+    });
 });
 
 $(window).load(function () {
