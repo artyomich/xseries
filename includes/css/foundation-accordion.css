@@ -1497,7 +1497,7 @@ p + .stat {
     border: 1px solid transparent;
     border-radius: 0;
     padding: .85em 1em;
-    margin: 0 1rem 1rem 0;
+    margin: 0;
     font-size: .9rem;
     background: #222;
     color: #fff

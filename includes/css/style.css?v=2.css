@@ -1278,6 +1278,13 @@ input-group-field {
 .validate-input {
     position: relative;
 }
+.wrap-input {
+    position: relative;
+    background-color: #fff;
+    border-radius: 2px;
+    margin-bottom: 30px;
+}
+
 .wrap-input100 {
     width: 100%;
     position: relative;
@@ -1307,7 +1314,6 @@ input {
 .focus-input100 {
     position: absolute;
     display: block;
-    width: calc(100% + 2px);
     height: calc(100% + 2px);
     top: -1px;
     left: -1px;
@@ -1454,7 +1460,7 @@ input {
 }
 
 input.input100.input100-padding {
-    padding: 0 20px 0 62px;
+    padding: 0 20px 0 43px;
 }
 
 a.button.right {

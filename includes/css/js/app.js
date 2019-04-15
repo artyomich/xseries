@@ -61,6 +61,7 @@ $(document).ready(function () {
         $('#legal_stuff').show();
 
         $('html, body').animate({scrollTop: $('#legal_stuff').offset().top - 109}, 500, 'easeInOutCubic');
+        $('html, body').removeClass('nav-open');
     });
 
     // Close legal_stuff
