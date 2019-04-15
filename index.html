@@ -20,7 +20,7 @@
 
    <link rel='stylesheet' href='includes/css/style.min.css%3Fver=5.0.3.css' type='text/css' media='all'/>
    <link rel='stylesheet' href='includes/css/shortcodes.css' type='text/css' media='all'/>
-   <link rel="stylesheet" href="includes/css/foundation.min.css">
+   <link rel="stylesheet" href="includes/css/foundation-accordion.css">
    <link rel='stylesheet' href='includes/css/font-awesome.min.css' type='text/css' media='all'/>
    <link rel="stylesheet" href="includes/css/animsition.min.css">
    <link rel="stylesheet" href="includes/css/foundation.css">
@@ -30,8 +30,8 @@
       {
          "@context": "http://schema.org",
          "@type": "Organization",
-         "name": "Lucidstyle Internetagentur",
-         "image": "https://www.lucidstyle.de/thumbnail.png"
+         "name": "XSeries",
+         "image": "https://www.xseries.pro/includes/images/favicon.png"
       }
    </script>
    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
@@ -44,12 +44,13 @@
             <img class="notebook" src="includes/images/main.jpg" alt="Website X-Series PRO">
             <div class="inner">
                <img class="logo" src="includes/images/logo.png" alt="X Series PRO">
-               <br>
+
                <div class="download windows">
                   <i class="fa fa fa-windows fa-3x"></i>
                   <span class="df">FREE</span>
                   <span class="dfn">Download</span>
                </div>
+
             </div>
             <a data-scroll class="go-down" href="index.html#agentur"></a>
          </div>
@@ -93,90 +94,60 @@
             <a class="rsImg" href="includes/images/slider/1.png">01</a>
             <div class="rsCaption">
                <h4>01</h4>
-               <p>
-                  <a class="button" href="/" target="_blank">01</a>
-               </p>
             </div>
          </div>
          <div class="project">
             <a class="rsImg" href="includes/images/slider/2.png">02</a>
             <div class="rsCaption">
                <h4>02</h4>
-               <p>
-                  <a class="button" href="/" target="_blank">02</a>
-               </p>
             </div>
          </div>
          <div class="project">
             <a class="rsImg" href="includes/images/slider/3.png">03</a>
             <div class="rsCaption">
                <h4>03</h4>
-               <p>
-                  <a class="button" href="/" target="_blank">03</a>
-               </p>
             </div>
          </div>
          <div class="project">
             <a class="rsImg" href="includes/images/slider/4.png">04</a>
             <div class="rsCaption">
                <h4>04</h4>
-               <p>
-                  <a class="button" href="/" target="_blank">04</a>
-               </p>
             </div>
          </div>
          <div class="project">
             <a class="rsImg" href="includes/images/slider/5.png">05</a>
             <div class="rsCaption">
                <h4>05</h4>
-               <p>
-                  <a class="button" href="/" target="_blank">05</a>
-               </p>
             </div>
          </div>
          <div class="project">
             <a class="rsImg" href="includes/images/slider/6.png">06</a>
             <div class="rsCaption">
                <h4>06</h4>
-               <p>
-                  <a class="button" href="/" target="_blank">06</a>
-               </p>
             </div>
          </div>
          <div class="project">
             <a class="rsImg" href="includes/images/slider/7.png">07</a>
             <div class="rsCaption">
                <h4>07</h4>
-               <p>
-                  <a class="button" href="/" target="_blank">07</a>
-               </p>
             </div>
          </div>
          <div class="project">
             <a class="rsImg" href="includes/images/slider/8.png">08</a>
             <div class="rsCaption">
                <h4>08</h4>
-               <p>
-                  <a class="button" href="/" target="_blank">08</a>
-               </p>
             </div>
          </div>
          <div class="project">
             <a class="rsImg" href="includes/images/slider/9.png">09</a>
             <div class="rsCaption">
                <h4>09</h4>
-               <p>
-                  <a class="button" href="/" target="_blank">09</a>
-               </p>
             </div>
          </div>
          <div class="project">
             <a class="rsImg" href="includes/images/slider/10.png">10</a>
             <div class="rsCaption">
                <h4>10</h4>
-               <p>
-                  <a class="button" href="/" target="_blank">10</a>
-               </p>
             </div>
          </div>
       </div>
@@ -184,14 +155,15 @@
    <div id="freedownload" class="section">
       <div class="row">
          <img class="logo" src="includes/images/logo1.png" alt="X Series PRO">
-         <br>
-         <div class="download windows">
-            <i class="fa fa fa-windows fa-3x"></i>
-            <span class="df">FREE</span>
-            <span class="dfn">Download</span>
+         <div class="inner has-padding-40">
+            <div class="download windows">
+               <i class="fa fa fa-windows fa-3x"></i>
+               <span class="df">FREE</span>
+               <span class="dfn">Download</span>
+            </div>
          </div>
-         <div class="inner">
-            <table class="small-12">
+         <div class="inner has-padding-40">
+            <table class="small-12 medium-6 myTable">
                <tbody>
                <tr>
                   <td>Platform Supported</td>
@@ -232,179 +204,166 @@
    </div>
    <div id="faq">
       <div class="row">
-         <div class="small-12 medium-10 medium-centered columns">
-            <div class="column">
-                        <h2>Frequently Asked Questions</h2>
-               <ul class="accordion" data-accordion>
-                  <li class="accordion-item is-active" data-accordion-item>
-                     <a href="#" class="accordion-title">Q: What is X Series PRO?</a>
-                     <div class="accordion-content" data-tab-content>
-                        <p>X Series PRO is a complete suite of trade automation tools for the Metatrader 4
-                                    platform. It simplifies trading, automatically manages orders and
-                                    is the most advanced, yet easy to use MT4 trade tool system on the planet! X Series
-                                    also has the capability to support fully automated Algorithmic
-                           trading.
-                        </p>
-                     </div>
-                  </li>
-                  <li class="accordion-item" data-accordion-item>
-                     <a href="#" class="accordion-title">Q: What do I get with X Series PRO?</a>
-                     <div class="accordion-content" data-tab-content>
-                        <p>X Series PRO is a suite of MT4 trade automation tools. It consists of two EA's and
-                                    three Indicators that work together as a complete trading system.
-                                    You also receive access to all of our Webinars, our Help Series videos as well as
-                                    any future products we develop included [these will still be
-                                    included in your simple monthly subscription fee]. The more tools we develop, the
-                                    more bang you get for your buck.<br>
-                                    <br>
-                                    Look, we hate nickel and diming and upselling just as much as you do. So we set out
-                                    to offer a great product at a reasonable price that helps traders
-                           of all skill levels, for one simple monthly price.
-                        </p>
-                     </div>
-                  </li>
-                  <li class="accordion-item" data-accordion-item>
-                     <a href="#" class="accordion-title">Q: Is X Series PRO easy to learn and use?</a>
-                     <div class="accordion-content" data-tab-content>
-                        <p>X Series PRO is very easy to use once you understand the basics. Installation is
-                                    achieved with an automated installer that puts everything where it
-                                    needs so it just works out of the box. You can install X Series PRO in seconds to
-                                    get started. We even include profiles, templates and settings so you
-                                    can be up and running in no time. We also have an extensive "HELP VIDEO" section to
-                                    show you the features of X Series PRO in small, digestible videos
-                                    that are easy to understand. After watching the HELP VIDEOS, you should have a basic
-                                    understanding of what you can do with X Series PRO and how to do
-                                    it. We are working on an extensive strategy training library that will be included
-                                    with the "X Series PRO" subscriptions to show you specific
-                                    strategies on how to use X Series PRO to set up profitable trades, with minimal
-                                    effort. You will learn how you can minimize your time staring at
-                           screens, and spend more time doing the things you enjoy.
-                        </p>
-                     </div>
-                  </li>
-                  <li class="accordion-item" data-accordion-item>
-                     <a href="#" class="accordion-title">Q: Can I use X Series PRO on a Mac or mobile devices?</a>
-                     <div class="accordion-content" data-tab-content>
-                        <p>Neither Metatrader 4, nor X Series PRO are designed to work natively on a Mac;
-                                    however, it is possible to run X Series PRO and Metatrader 4 by
-                                    using a Windows emulator on a Mac [such as Metatrader for Mac]. We strongly
-                                    recommend using X Series PRO on Windows PCs for best results. X Series PRO
-                                    will NOT work on mobile devices such as phones or tablets as these versions of
-                           Metatrader 4 do not allow complex plugins.
-                        </p>
-                     </div>
-                  </li>
-                  <li class="accordion-item" data-accordion-item>
-                     <a href="#" class="accordion-title">Q: How much does X Series PRO cost?</a>
-                     <div class="accordion-content" data-tab-content>
-                        <p>We believe that X Series PRO is so wonderful that every trader should use it. We're
-                                    making it free to use for 2019. Download it today for free and see how it can help
-                           you improve your trading.
-                        </p>
-                     </div>
-                  </li>
-                  <li class="accordion-item" data-accordion-item>
-                     <a href="#" class="accordion-title">Q: What level of trader is X Series PRO suited for?</a>
-                     <div class="accordion-content" data-tab-content>
-                        <p>X Series PRO is geared for use by novice through professional level traders and
-                                    offers something for everyone. In addition to simplifying the trade
-                                    process, X Series PRO includes professional grade trade capabilities, such as
-                                    trendline trading, grid trading, fading and layering as well as other
-                           advanced price improvement and loss minimization strategies.
-                        </p>
-                     </div>
-                  </li>
-                  <li class="accordion-item" data-accordion-item>
-                     <a href="#" class="accordion-title">Q: Why do I need X Series PRO?</a>
-                     <div class="accordion-content" data-tab-content>
-                        <p>Metatrader 4 is a great trading platform, but the trading process leaves much to be
-                                    desired. Placing trades in MT4 is inefficient, lacks intuitive
-                                    "on the charts" trading and is just plain slow. X Series PRO simplifies the trade
-                                    process so you can take control of your trading. X Series PRO is
-                                    powerful. It utilizes strong money management, automates position sizing
-                           calculations and monitors/manages your trades so you don't have to.
-                        </p>
-                     </div>
-                  </li>
-               </ul>
+         <div class="inner">
+            <div class="small-12 medium-10 medium-centered columns">
+               <div class="column">
+                  <h2>Frequently Asked Questions</h2>
+                  <div class="inner has-padding-40">
+                     <ul class="accordion" data-accordion>
+                        <li class="accordion-item is-active" data-accordion-item>
+                           <a href="#" class="accordion-title">Q: What is X Series PRO?</a>
+                           <div class="accordion-content" data-tab-content>
+                              <p>X Series PRO is a complete suite of trade automation tools for the Metatrader 4
+                                 platform. It simplifies trading, automatically manages orders and
+                                 is the most advanced, yet easy to use MT4 trade tool system on the planet! X Series
+                                 also has the capability to support fully automated Algorithmic
+                                 trading.
+                              </p>
+                           </div>
+                        </li>
+                        <li class="accordion-item" data-accordion-item>
+                           <a href="#" class="accordion-title">Q: What do I get with X Series PRO?</a>
+                           <div class="accordion-content" data-tab-content>
+                              <p>X Series PRO is a suite of MT4 trade automation tools. It consists of two EA's and
+                                 three Indicators that work together as a complete trading system.
+                                 You also receive access to all of our Webinars, our Help Series videos as well as
+                                 any future products we develop included [these will still be
+                                 included in your simple monthly subscription fee]. The more tools we develop, the
+                                 more bang you get for your buck.<br>
+                                 <br>
+                                 Look, we hate nickel and diming and upselling just as much as you do. So we set out
+                                 to offer a great product at a reasonable price that helps traders
+                                 of all skill levels, for one simple monthly price.
+                              </p>
+                           </div>
+                        </li>
+                        <li class="accordion-item" data-accordion-item>
+                           <a href="#" class="accordion-title">Q: Is X Series PRO easy to learn and use?</a>
+                           <div class="accordion-content" data-tab-content>
+                              <p>X Series PRO is very easy to use once you understand the basics. Installation is
+                                 achieved with an automated installer that puts everything where it
+                                 needs so it just works out of the box. You can install X Series PRO in seconds to
+                                 get started. We even include profiles, templates and settings so you
+                                 can be up and running in no time. We also have an extensive "HELP VIDEO" section to
+                                 show you the features of X Series PRO in small, digestible videos
+                                 that are easy to understand. After watching the HELP VIDEOS, you should have a basic
+                                 understanding of what you can do with X Series PRO and how to do
+                                 it. We are working on an extensive strategy training library that will be included
+                                 with the "X Series PRO" subscriptions to show you specific
+                                 strategies on how to use X Series PRO to set up profitable trades, with minimal
+                                 effort. You will learn how you can minimize your time staring at
+                                 screens, and spend more time doing the things you enjoy.
+                              </p>
+                           </div>
+                        </li>
+                        <li class="accordion-item" data-accordion-item>
+                           <a href="#" class="accordion-title">Q: Can I use X Series PRO on a Mac or mobile devices?</a>
+                           <div class="accordion-content" data-tab-content>
+                              <p>Neither Metatrader 4, nor X Series PRO are designed to work natively on a Mac;
+                                 however, it is possible to run X Series PRO and Metatrader 4 by
+                                 using a Windows emulator on a Mac [such as Metatrader for Mac]. We strongly
+                                 recommend using X Series PRO on Windows PCs for best results. X Series PRO
+                                 will NOT work on mobile devices such as phones or tablets as these versions of
+                                 Metatrader 4 do not allow complex plugins.
+                              </p>
+                           </div>
+                        </li>
+                        <li class="accordion-item" data-accordion-item>
+                           <a href="#" class="accordion-title">Q: How much does X Series PRO cost?</a>
+                           <div class="accordion-content" data-tab-content>
+                              <p>We believe that X Series PRO is so wonderful that every trader should use it. We're
+                                 making it free to use for 2019. Download it today for free and see how it can help
+                                 you improve your trading.
+                              </p>
+                           </div>
+                        </li>
+                        <li class="accordion-item" data-accordion-item>
+                           <a href="#" class="accordion-title">Q: What level of trader is X Series PRO suited for?</a>
+                           <div class="accordion-content" data-tab-content>
+                              <p>X Series PRO is geared for use by novice through professional level traders and
+                                 offers something for everyone. In addition to simplifying the trade
+                                 process, X Series PRO includes professional grade trade capabilities, such as
+                                 trendline trading, grid trading, fading and layering as well as other
+                                 advanced price improvement and loss minimization strategies.
+                              </p>
+                           </div>
+                        </li>
+                        <li class="accordion-item" data-accordion-item>
+                           <a href="#" class="accordion-title">Q: Why do I need X Series PRO?</a>
+                           <div class="accordion-content" data-tab-content>
+                              <p>Metatrader 4 is a great trading platform, but the trading process leaves much to be
+                                 desired. Placing trades in MT4 is inefficient, lacks intuitive
+                                 "on the charts" trading and is just plain slow. X Series PRO simplifies the trade
+                                 process so you can take control of your trading. X Series PRO is
+                                 powerful. It utilizes strong money management, automates position sizing
+                                 calculations and monitors/manages your trades so you don't have to.
+                              </p>
+                           </div>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
             </div>
          </div>
-         <div class="download windows">
-            <i class="fa fa fa-windows fa-3x"></i>
-            <span class="df">FREE</span>
-            <span class="dfn">Download</span>
+      </div>
+      <div class="row">
+         <div class="inner has-padding-40">
+            <div class="download windows">
+               <i class="fa fa fa-windows fa-3x"></i>
+               <span class="df">FREE</span>
+               <span class="dfn">Download</span>
+            </div>
          </div>
       </div>
    </div>
    <div id="contact_us" class="section">
       <div class="row">
          <div class="small-12 columns">
-            <div class="simple-subscription-form">
-               <div class="simple-subscription-form">
-                  <form>
-                     <img class="drop" src="includes/images/que.png" alt="Drop A Message">
-                     <p>Drop us a message</p>
-                     <div class="input-group">
-                        <div class="row">
-                           <div class="small-12 medium-6 columns">
-                                 <input type="text" placeholder="Name">
-                           </div>
-                           <div class="small-12 medium-6 columns">
-                                    <span class="input-group-label">
-                                    <i class="fa fa-envelope"></i>
-                                    </span>
-                              <input class="input-group-field" type="email" placeholder="Your Email Address" required>
-                           </div>
-                           <div class="small-12 columns">
-                                    <textarea name="explanation" placeholder="How Can We Help?">How Can We Help?
-                                    </textarea>
-                           </div>
-                           <div class="small-12 columns">
-                              <a class="button right" href="/" target="_blank">SEND</a>
-                           </div>
-                        </div>
-                     </div>
-                  </form>
-               </div>
-            </div>
-            <div class="small-12 columns wrap-contact100">
-               <span class="contact100-form-symbol">
-                   <img src="includes/images/symbol-01.png" alt="SYMBOL-MAIL">
-               </span>
-
                <form class="contact100-form validate-form flex-sb flex-w">
-				<span class="contact100-form-title">
-					Drop Us A Message
-				</span>
+                   <span class="contact100-form-title">
+                       Drop Us A Message
+                   </span>
 
-                  <div class="wrap-input100 rs1 validate-input" data-validate="Name is required">
+                  <div class="wrap-input100 rs1 validate-input small-12 medium-6 columns"
+                       data-validate="Name is required">
                      <input class="input100" type="text" name="name" placeholder="Name">
                      <span class="focus-input100"></span>
                   </div>
 
-                  <div class="wrap-input100 rs1 validate-input" data-validate="Email is required: e@a.z">
+                  <div class="wrap-input100 rs1 validate-input small-12 medium-6 columns"
+                       data-validate="Email is required: e@a.z">
                      <label class="label-input100" for="email">
                         <img src="includes/images/symbol-01.png" alt="SYMBOL-MAIL">
                      </label>
-                     <input class="input100" type="text" name="email" placeholder="Email Address">
+                     <input class="input100 input100-padding" type="text" name="email" placeholder="Email Address">
                      <span class="focus-input100"></span>
                   </div>
 
-                  <div class="wrap-input100 validate-input" data-validate="Message is required">
-                     <textarea class="input100" name="message" placeholder="Write Us A Message"></textarea>
+                  <div class="wrap-input100 validate-input small-12 medium-6 columns"
+                       data-validate="Message is required">
+                     <textarea class="input100" name="message" placeholder="How Can We Help?"></textarea>
                      <span class="focus-input100"></span>
                   </div>
 
-                  <div class="container-contact100-form-btn">
-                     <button class="contact100-form-btn">
-                        Send
-                     </button>
+                  <div class="small-12 columns">
+                     <a class="button right" href="/" target="_blank">SEND</a>
                   </div>
                </form>
             </div>
          </div>
-         <div class="small-12 columns">
-            <a>LEGAL INFO</a>
+      </div>
+   <div id="footer">
+      <div class="row">
+         <div class="small-12 small-centered medium-3 medium-centered columns">
+            <ul class="flat-social">
+               <li><a href="https://www.linkedin.com/company/quantix-solutions"><i class="fa fa fa-linkedin"></i></a>
+               </li>
+               <li><a href="https://www.facebook.com/xSeries.PR0/"><i class="fa fa fa-facebook-square"></i></a></li>
+               <li><a href="https://www.twitter.com"><i class="fa fa fa-twitter"></i></a></li>
+               <li><a href="https://www.youtube.com/channel/UCu305CuPP2mgljJZPb9TGcA"><i
+                       class="fa fa fa-youtube"></i></a></li>
+               <li><a href="https://www.instagram.com"><i class="fa fa fa-instagram"></i></a></li>
+            </ul>
          </div>
          <div class="small-12 columns">
             <p>Risk Warning: Trading financial products on margin carries a high degree of risk and is not suitable
